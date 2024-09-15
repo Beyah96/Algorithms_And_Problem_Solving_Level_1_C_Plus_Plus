@@ -1,5 +1,5 @@
 
-# Problem 1: Print Your Name
+# Problem 2: Read Name and Print It
 
 ## Description
 This C++ program demonstrates how to read a user's name from the standard input and print it in a formatted message. It includes two main functions: `ReadName` to obtain the user's input and `PrintName` to display it.
@@ -23,7 +23,7 @@ It will prompt you to enter your name. After entering it, the program will displ
 ```
 Your name is : [Your Name]
 ```
-## How to Run
+## Example
 If you enter Alice when prompted, the output will be:
 ```
 Your name is : Alice
