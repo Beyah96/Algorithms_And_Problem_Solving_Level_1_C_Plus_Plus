@@ -20,8 +20,7 @@ enPassFail CheckMark(int Mark){
 }
 
 void PrintResult(int Mark) {
-	enPassFail Result = CheckMark(Mark);
-	if (Result == enPassFail::Fail)
+	if (CheckMark(Mark) == enPassFail::Fail)
 		cout << "Fail";
 	else
 		cout << "Pass";
