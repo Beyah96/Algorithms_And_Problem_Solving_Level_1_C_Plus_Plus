@@ -11,7 +11,7 @@ void ReadNumbers(int& Number1, int& Number2) {
 	cin >> Number2;
 }
 
-int MaxNumber(int Number1, int Number2) {
+int MaxOfNumbers(int Number1, int Number2) {
 	if (Number1 > Number2)
 		return Number1;
 	else
@@ -25,5 +25,5 @@ void PrintResult(int Max) {
 int main() {
 	int Number1, Number2;
 	ReadNumbers(Number1, Number2);
-	PrintResult(MaxNumber(Number1, Number2));
+	PrintResult(MaxOfNumbers(Number1, Number2));
 }
