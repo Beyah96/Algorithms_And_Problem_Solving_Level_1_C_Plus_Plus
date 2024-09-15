@@ -24,11 +24,11 @@ This C++ program reads three integers from the user, calculates their sum, compu
 
 1. **Compile**: Use a C++ compiler to compile the program. For example, using `g++`, you can compile it with:
    ```bash
-   g++ -o problem10 problem10.cpp
+   g++ -o problem11 problem11.cpp
    ```
 2. **Execute**: Run the compiled program:
    ```bash
-   ./problem10
+   ./problem11
    ```
 
    The program will prompt you to enter three numbers and then display whether you "Pass" or "Fail" based on the calculated average.
