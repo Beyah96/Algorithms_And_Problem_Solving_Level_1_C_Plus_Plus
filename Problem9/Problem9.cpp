@@ -19,7 +19,7 @@ int SumNumbers(int Arr[3]) {
 }
 
 void PrintResult(int Arr[3]) {
-	cout << "The sum of your given numbers is : " << SumNumbers(Arr);
+	cout << "The total sum of given numbers is : " << SumNumbers(Arr);
 }
 int main() {
 	int Arr[3];
