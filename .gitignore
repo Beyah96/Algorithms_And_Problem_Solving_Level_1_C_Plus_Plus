@@ -26,6 +26,7 @@ bin/
 .vs/
 
 *.sln
+*.vcxproj
 *.vcxproj.user
 *.vcxproj.filters
 *.suo
