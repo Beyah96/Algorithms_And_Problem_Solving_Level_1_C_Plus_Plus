@@ -3,7 +3,7 @@
 ## Description
 This C++ program reads two integers from the user, compares them, and determines which one is larger (the maximum). The program includes the following functions:
 - `ReadNumbers` to collect two integers from the user,
-- `MaxNumber` to determine the larger of the two numbers,
+- `MaxOfNumbers` to determine the larger of the two numbers,
 - `PrintResult` to display the maximum number.
 
 ## Code Explanation
