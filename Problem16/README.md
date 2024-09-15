@@ -11,9 +11,7 @@ This C++ program reads the width and diagonal of a rectangle from the user, calc
 - **Headers**: The program includes `<iostream>` for input/output operations and `<cmath>` for mathematical calculations.
 - **Function `ReadDimensions`**: Prompts the user to enter the width and diagonal of the rectangle and stores them in variables passed by reference.
 - **Function `CalculateAreaBySideAndDiagonal`**: Uses the Pythagorean theorem to calculate the height of the rectangle based on the width and diagonal, then multiplies the width by the height to calculate the area. The formula used is:
-  \[
-  \text{Area} = \text{width} \times \sqrt{\text{diagonal}^2 - \text{width}^2}
-  \]
+  Area = width * sqrt(diagonal^2 - width^2)
 - **Function `PrintResult`**: Takes the calculated area and prints it in a formatted message.
 - **Function `main`**: Manages the program flow by calling `ReadDimensions` to input the width and diagonal, `CalculateAreaBySideAndDiagonal` to compute the area, and `PrintResult` to display the result.
 
