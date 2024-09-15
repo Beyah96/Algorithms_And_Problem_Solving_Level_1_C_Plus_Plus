@@ -16,8 +16,8 @@ int SumNumbers(int Arr[3]) {
 	}
 	return Sum;
 }
-int AverageNumbers(int Sum) {
-	return Sum / 3;
+float AverageNumbers(int Sum) {
+	return (float) Sum / 3;
 }
 void PrintResult(int Average) {
 	cout << "The average of your numbers is : " << Average;
