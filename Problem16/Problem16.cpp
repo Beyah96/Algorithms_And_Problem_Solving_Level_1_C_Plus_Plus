@@ -11,7 +11,7 @@ void ReadDemensions(float& width, float& diagonal) {
 	cin >> diagonal;
 }
 
-float CalculateArea(float width, float diagonal) {
+float CalculateAreaBySideAndDiagonal(float width, float diagonal) {
 	return width * sqrt(pow(diagonal, 2) - pow(width, 2));
 }
 
@@ -22,6 +22,6 @@ void PrintResult(float Area) {
 int main() {
 	float width, diagonal;
 	ReadDemensions(width, diagonal);
-	PrintResult(CalculateArea(width, diagonal));
+	PrintResult(CalculateAreaBySideAndDiagonal(width, diagonal));
 	return 0;
 }
