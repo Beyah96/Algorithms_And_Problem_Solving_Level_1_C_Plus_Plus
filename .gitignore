@@ -22,6 +22,9 @@ bin/
 
 # Fichiers spécifiques à Visual Studio
 .vscode/
+# Dossiers spécifiques à Visual Studio
+.vs/
+
 *.sln
 *.vcxproj.user
 *.vcxproj.filters
