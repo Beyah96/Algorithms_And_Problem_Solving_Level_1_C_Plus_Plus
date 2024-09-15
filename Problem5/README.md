@@ -1,5 +1,5 @@
 
-# Problem 4: Hire a Driver Case 1
+# Problem 5: Hire a Driver Case 2 (Driver has recommendation)
 
 ## Description
 This C++ program determines if an individual is eligible for hiring based on their age and whether they have a driver's license. The program includes three main functions:
@@ -21,10 +21,10 @@ This C++ program determines if an individual is eligible for hiring based on the
 
 1. **Compile**: Use a C++ compiler to compile the program. For example, using `g++`, you can compile it with:
    ```bash
-   g++ -o problem4 problem4.cpp
+   g++ -o problem5 problem5.cpp
 2. **Execute**: Run the compiled program:
     ```bash
-    ./problem4
+    ./problem5
 
 It will prompt you to enter your age, whether you have a driver's license, and whether you have a recommendation. Based on your input, it will display either "Hired" or "Rejected".
 
