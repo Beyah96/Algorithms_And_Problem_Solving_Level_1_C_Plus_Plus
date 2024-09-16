@@ -10,11 +10,8 @@ short ReadAge() {
 	return Age;
 }
 
-bool ValidateAge(short Age) {
-	if (Age >= 18 && Age <= 45) 
-		return true;
-	else
-		return false;
+bool ValidateAge(short Age, short From, short To) {
+	return (Age >= From && Age <= To);
 }
 
 void PrintResult(bool valid) {
@@ -24,6 +21,7 @@ void PrintResult(bool valid) {
 		cout << "Invalid age !";
 }
 int main() {
-	PrintResult(ValidateAge(ReadAge()));
+	short From = 18, To = 45;
+	PrintResult(ValidateAge(ReadAge(), From, To));
 	return 0;
 }
