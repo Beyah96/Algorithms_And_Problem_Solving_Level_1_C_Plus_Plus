@@ -38,5 +38,3 @@ The factorial of your number is : 120
 - C++ compiler
 - Basic understanding of input/output and conditional logic in C++
 
-
-
