@@ -42,7 +42,6 @@ void PrintNumberDoWhileLoop(int Number) {
 }
 
 
-
 int main() {
 	int Number = ReadNumber();
 	PrintNumberForLoop(Number);
