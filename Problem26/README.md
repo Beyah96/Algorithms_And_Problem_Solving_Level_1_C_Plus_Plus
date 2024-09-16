@@ -1,7 +1,7 @@
-# Problem 26 : Print Numbers from 2 to N using Three Loops
+# Problem 26 : Print Numbers from 1 to N using Three Loops
 
 ## Description
-This C++ program prints numbers from 1 to a user-defined value \( N \), using three different types of loops: `for`, `while`, and `do-while`. The program reads an integer \( N \) from the user and then prints numbers from 1 to \( N \) using each loop type sequentially. It includes the following functions:
+This C++ program prints numbers from 1 to a user-defined value `N`, using three different types of loops: `for`, `while`, and `do-while`. The program reads an integer `N` from the user and then prints numbers from 1 to `N` using each loop type sequentially. It includes the following functions:
 - `ReadNumber` to get the user input,
 - `PrintNumberForLoop` to print numbers from 1 to \( N \) using a `for` loop,
 - `PrintNumberWhileLoop` to print numbers from 1 to \( N \) using a `while` loop,
