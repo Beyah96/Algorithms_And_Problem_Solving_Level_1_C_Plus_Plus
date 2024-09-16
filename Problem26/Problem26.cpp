@@ -22,10 +22,10 @@ void PrintNumberWhileLoop(int Number) {
 	cout << "**************************************" << endl;
 	cout << "Print Numbers with while loop : " << endl;
 	cout << "**************************************" << endl;
-	int i = 1;
-	while(i<=Number){
-		cout << i << endl;
-		i++;
+	int counter = 1;
+	while(counter <=Number){
+		cout << counter << endl;
+		counter++;
 	}
 }
 
@@ -33,11 +33,11 @@ void PrintNumberDoWhileLoop(int Number) {
 	cout << "**************************************" << endl;
 	cout << "Print Numbers with do while loop : " << endl;
 	cout << "**************************************" << endl;
-	int i = 1;
+	int counter = 1;
 	do {
-		cout << i << endl;
-		i++;
-	} while (i <= Number);
+		cout << counter << endl;
+		counter++;
+	} while (counter <= Number);
 		
 }
 
