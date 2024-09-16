@@ -34,14 +34,13 @@ This C++ program prompts the user to input their age and validates whether it fa
 
 If you enter `16` the program will continue to prompt you for an age. Once you enter `20` , the program will output:
 ```
-Your chosen age is: 25
+Your chosen age is: 20
 ```
-If you enter `55`, the program will output:
-```
-Invalid age !
-```
+
 
 ## Requirements
 - C++ compiler
 - Basic understanding of input/output and conditional logic in C++
+
+
 
