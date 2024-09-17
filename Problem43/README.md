@@ -1,3 +1,5 @@
+# Problem 43 : Seconds to Days, Hours, Minutes and Sendons
+
 ## Description
 This C++ program takes a user-defined number of seconds and converts it into a more readable format of 
 days, hours, minutes, and seconds. The program prompts the user to enter a number of seconds and then
@@ -37,4 +39,3 @@ This represents 1 day, 1 hour, 1 minute, and 1 second.
 ## Requirements
 - C++ compiler
 - Basic understanding of input/output and conditional logic in C++
-
