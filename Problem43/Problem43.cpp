@@ -5,10 +5,7 @@
 using namespace std;
 
 struct stTimeComponents {
-	int Days;
-	int Hours;
-	int Minutes;
-	int Seconds;
+	int Days, Hours, Minutes, Seconds;
 };
 
 
@@ -24,19 +21,19 @@ int ReadNumberOfSeconds() {
 
 stTimeComponents GetDurationDetails(int TotalNumbrOfSeconds) {
 
-	int NumberOfSencondsPerMinute = 60;
-	int NumberOfSencondsPerHour = 60 * NumberOfSencondsPerMinute;
-	int NumberOfSencondsPerDay = 24 * NumberOfSencondsPerHour;
+	const int NumberOfSencondsPerMinute = 60;
+	const int NumberOfSencondsPerHour = 60 * NumberOfSencondsPerMinute;
+	const int NumberOfSencondsPerDay = 24 * NumberOfSencondsPerHour;
 
 	stTimeComponents DurationDetails;
 
-	DurationDetails.Days = TotalNumbrOfSeconds / NumberOfSencondsPerDay;
+	DurationDetails.Days = floor(TotalNumbrOfSeconds / NumberOfSencondsPerDay);
 	int Remainder = TotalNumbrOfSeconds % NumberOfSencondsPerDay;
 
-	DurationDetails.Hours = Remainder / NumberOfSencondsPerHour;
+	DurationDetails.Hours = floor (Remainder / NumberOfSencondsPerHour);
 	Remainder %= NumberOfSencondsPerHour;
 
-	DurationDetails.Minutes = Remainder / NumberOfSencondsPerMinute;
+	DurationDetails.Minutes = floor (Remainder / NumberOfSencondsPerMinute);
 	
 	DurationDetails.Seconds = Remainder % NumberOfSencondsPerMinute;
 	
