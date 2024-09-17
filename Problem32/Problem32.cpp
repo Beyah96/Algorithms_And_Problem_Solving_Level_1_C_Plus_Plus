@@ -12,11 +12,13 @@ void ReadNumberAndPower(int& Number, int& Power) {
 
 int CalculatePower(int Number, int Power) {
 	int Result = 1;
-	if (Power != 0){
-		for (int i = 1; i <= Power; i++) {
-			Result *= Number;
-		}
+	if (Power != 0) {
+		return 1;
 	}
+	for (int i = 1; i <= Power; i++) {
+		Result *= Number;
+	}
+	
 	return Result;
 }
 
