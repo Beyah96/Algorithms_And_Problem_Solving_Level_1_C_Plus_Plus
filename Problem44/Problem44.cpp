@@ -11,7 +11,7 @@ int ReadDayNumber() {
 		cout << "Please enter the day's number (from 1 to 7) : ";
 		cin >> Number;
 	} while (Number > 7 || Number < 1);
-	return Number;
+	return (enDaysOfWeek) Number;
 }
 
 string GetDayName(int Number) {
