@@ -5,7 +5,7 @@ using namespace std;
 
 enum enDaysOfWeek { Sunday = 1, Monday = 2, Tuesday = 3, Wednesday = 4, Thursday = 5, Friday = 6, Saturday = 7 };
 
-int ReadDayNumber() {
+enDaysOfWeek ReadDayNumber() {
 	int Number;
 	do {
 		cout << "Please enter the day's number (from 1 to 7) : ";
@@ -14,9 +14,9 @@ int ReadDayNumber() {
 	return (enDaysOfWeek) Number;
 }
 
-string GetDayName(int Number) {
+string GetDayName(enDaysOfWeek DayNumber) {
 	enDaysOfWeek Day;
-	switch (Number) {
+	switch (DayNumber) {
 	case enDaysOfWeek::Sunday:
 		return "Sunday";
 
