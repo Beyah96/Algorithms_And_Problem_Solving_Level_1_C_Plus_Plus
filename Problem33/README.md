@@ -33,7 +33,7 @@ The program includes the following functions:
    ```bash
    ./problem33
    ```
-  The program will prompt you to enter a base number and a power, then it will display the result of raising the base number to the given power.
+ The program will prompt you to enter a mark and will display the corresponding grade.
 ## Example
 
 If you enter mark `85` , the program will output:
