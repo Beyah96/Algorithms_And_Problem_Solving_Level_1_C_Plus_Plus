@@ -1,4 +1,4 @@
-# Problem: Simple Calculator
+# Problem 36 : Simple Calculator
 
 ## Description
 This C++ program functions as a simple calculator that allows the user to perform one of four basic operations (addition, subtraction, multiplication, or division) on two numbers entered by the user. The user is prompted to input two numbers and then select an operation. The program calculates the result based on the selected operation and displays it.
